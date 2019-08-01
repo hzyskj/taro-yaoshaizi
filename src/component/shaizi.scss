@@ -1,0 +1,17 @@
+$btnTextColor: #831b10;
+$mainColor: #ffdb01;
+
+.shaiziBg {
+  width: 589px;
+  height: 541px;
+  position: relative;
+  margin: 0 auto;
+  .shaizi {
+    width: 275px;
+    height: 288px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

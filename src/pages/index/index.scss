@@ -1,0 +1,171 @@
+@mixin homeBlock {
+  background: #320048;
+  border-radius: 100px;
+}
+$btnTextColor: #831b10;
+$mainColor: #ffdb01;
+$width: 675px;
+.page-index {
+  background: #5e0230;
+  position: relative;
+  .banner {
+    width: 100%;
+    height: 948px;
+  }
+  .celan {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    .celan-img {
+      width: 54px;
+      height: 163px;
+    }
+    .celan-share-btn {
+      background: transparent;
+      padding: 0;
+      .celan-share-img {
+        width: 54px;
+        height: 143px;
+      }
+    }
+  }
+  .page-content {
+    margin-top: -600px;
+    padding-bottom: 40px;
+    .prize {
+      width: $width;
+      margin: 0 auto;
+      position: relative;
+      .prize-type {
+        margin-top: 10px;
+      }
+      .user-jindu {
+        @include homeBlock();
+        height: 20px;
+        border: 1px solid #8d00c6;
+        border-bottom: 4px solid #8d00c6;
+        padding: 4px;
+        box-sizing: border-box;
+        position: relative;
+        .index-jindu {
+          background: #ffffff;
+          height: 100%;
+          border-radius: 100px;
+          box-shadow: 0px -4px #a08ba9 inset;
+        }
+      }
+      .mark {
+        width: 29px;
+        height: 36px;
+        position: absolute;
+        top: 50px;
+      }
+      .prize-requir {
+        margin-top: 16px;
+        .dian {
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+          background: #ffe12c;
+        }
+      }
+    }
+    .shaizi-block {
+      width: $width;
+      margin: 0 auto;
+      margin-top: 20px;
+      background: #320048;
+      border-radius: 30px;
+      position: relative;
+      z-index: 2;
+      padding: 40px 30px 45px;
+      box-sizing: border-box;
+
+      .user-index-sum {
+        font-size: 30px;
+        .cup-icon {
+          width: 40px;
+          height: 42px;
+        }
+      }
+      .friend-help-list {
+        border-bottom: 1px solid $mainColor;
+        font-size: 24px;
+      }
+      .get-jihui-block {
+        border-radius: 20px;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 40px;
+        padding-bottom: 0;
+        font-size: 30px;
+        margin-top: 40px;
+        .get-jihui-list {
+          margin-top: 20px;
+          font-size: 24px;
+        }
+        .jihui-btn {
+          border: 1px solid #fff;
+          background: #fff;
+          color: #320048;
+          border-radius: 10px;
+          padding: 4px 12px;
+          box-sizing: border-box;
+        }
+        .jihui-btn-success {
+          color: #fff;
+          background: transparent;
+        }
+        button {
+          line-height: 74px;
+          height: 74px;
+          color: $btnTextColor;
+          background: $mainColor;
+          margin-top: 20px;
+        }
+      }
+      .shaiziBg {
+        margin-top: 20px;
+      }
+      .help-list {
+        .help-list-title {
+          height: 78px;
+          background: #4e2261;
+          color: #fff;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+        .help-list-box {
+          height: 360px;
+          background: #fff;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          padding: 15px 60px;
+          .help-item {
+            height: 64px;
+            border-bottom: 1px solid #a27fb0;
+            &:last-child {
+              border-bottom: 0;
+            }
+          }
+        }
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .active-know {
+      width: 675px;
+      height: 420px;
+      margin: 40px auto 0 auto;
+    }
+  }
+
+  .tx {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}

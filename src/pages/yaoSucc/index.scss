@@ -1,0 +1,44 @@
+.page-yao-succ {
+  min-height: 100vh;
+  background: #5e0230;
+  padding-bottom: 40px;
+  .bg {
+    width: 100%;
+    height: 1051px;
+  }
+  .djs {
+    position: absolute;
+    top: 56px;
+    left: 30px;
+    background: #5e0230;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    .djs-time {
+      background: #ffdb01;
+      color: #5e0230;
+      padding:0 10px;
+      margin-right: 10px;
+    }
+  }
+  .slign-num {
+    position: absolute;
+    font-size: 100px;
+    top: 190px;
+    right: 200px;
+    color: #FFD803;
+    text-shadow: 1Px 1Px #F10085;
+    transform: rotateZ(4deg);
+  }
+  .dice-image {
+    position: absolute;
+    width: 275px;
+    height: 288px;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .page-text-tip {
+    margin-top: -100px;
+  }
+}
